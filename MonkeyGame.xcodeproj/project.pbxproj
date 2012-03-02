@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C8F189115005BFD0040C21B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8F189015005BFD0040C21B /* UIKit.framework */; };
+		8C8F189315005BFD0040C21B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8F189215005BFD0040C21B /* Foundation.framework */; };
+		8C8F189515005BFD0040C21B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8F189415005BFD0040C21B /* CoreGraphics.framework */; };
+		8C8F189715005BFD0040C21B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8F189615005BFD0040C21B /* CoreData.framework */; };
+		8C8F189D15005BFD0040C21B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C8F189B15005BFD0040C21B /* InfoPlist.strings */; };
+		8C8F189F15005BFD0040C21B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F189E15005BFD0040C21B /* main.m */; };
+		8C8F18A315005BFD0040C21B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F18A215005BFD0040C21B /* AppDelegate.m */; };
+		8C8F18A615005BFE0040C21B /* MonkeyGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F18A415005BFE0040C21B /* MonkeyGame.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C8F188C15005BFD0040C21B /* MonkeyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonkeyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8F189015005BFD0040C21B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8C8F189215005BFD0040C21B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8C8F189415005BFD0040C21B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8C8F189615005BFD0040C21B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8C8F189A15005BFD0040C21B /* MonkeyGame-Info.plist */ = {isa = PBXFileReference; path = "MonkeyGame-Info.plist"; sourceTree = "<group>"; };
+		8C8F189C15005BFD0040C21B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C8F189E15005BFD0040C21B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C8F18A015005BFD0040C21B /* MonkeyGame-Prefix.pch */ = {isa = PBXFileReference; path = "MonkeyGame-Prefix.pch"; sourceTree = "<group>"; };
+		8C8F18A115005BFD0040C21B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C8F18A215005BFD0040C21B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C8F18A515005BFE0040C21B /* MonkeyGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MonkeyGame.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C8F188915005BFD0040C21B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8F189115005BFD0040C21B /* UIKit.framework in Frameworks */,
+				8C8F189315005BFD0040C21B /* Foundation.framework in Frameworks */,
+				8C8F189515005BFD0040C21B /* CoreGraphics.framework in Frameworks */,
+				8C8F189715005BFD0040C21B /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C8F188115005BFD0040C21B = {
+			isa = PBXGroup;
+			children = (
+				8C8F189815005BFD0040C21B /* MonkeyGame */,
+				8C8F188F15005BFD0040C21B /* Frameworks */,
+				8C8F188D15005BFD0040C21B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C8F188D15005BFD0040C21B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C8F188C15005BFD0040C21B /* MonkeyGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C8F188F15005BFD0040C21B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C8F189015005BFD0040C21B /* UIKit.framework */,
+				8C8F189215005BFD0040C21B /* Foundation.framework */,
+				8C8F189415005BFD0040C21B /* CoreGraphics.framework */,
+				8C8F189615005BFD0040C21B /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C8F189815005BFD0040C21B /* MonkeyGame */ = {
+			isa = PBXGroup;
+			children = (
+				8C8F18A115005BFD0040C21B /* AppDelegate.h */,
+				8C8F18A215005BFD0040C21B /* AppDelegate.m */,
+				8C8F18A415005BFE0040C21B /* MonkeyGame.xcdatamodeld */,
+				8C8F189915005BFD0040C21B /* Supporting Files */,
+			);
+			path = MonkeyGame;
+			sourceTree = "<group>";
+		};
+		8C8F189915005BFD0040C21B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C8F189A15005BFD0040C21B /* MonkeyGame-Info.plist */,
+				8C8F189B15005BFD0040C21B /* InfoPlist.strings */,
+				8C8F189E15005BFD0040C21B /* main.m */,
+				8C8F18A015005BFD0040C21B /* MonkeyGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C8F188B15005BFD0040C21B /* MonkeyGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C8F18A915005BFE0040C21B /* Build configuration list for PBXNativeTarget "MonkeyGame" */;
+			buildPhases = (
+				8C8F188815005BFD0040C21B /* Sources */,
+				8C8F188915005BFD0040C21B /* Frameworks */,
+				8C8F188A15005BFD0040C21B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonkeyGame;
+			productName = MonkeyGame;
+			productReference = 8C8F188C15005BFD0040C21B /* MonkeyGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C8F188315005BFD0040C21B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = yoseka;
+			};
+			buildConfigurationList = 8C8F188615005BFD0040C21B /* Build configuration list for PBXProject "MonkeyGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C8F188115005BFD0040C21B;
+			productRefGroup = 8C8F188D15005BFD0040C21B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C8F188B15005BFD0040C21B /* MonkeyGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C8F188A15005BFD0040C21B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8F189D15005BFD0040C21B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C8F188815005BFD0040C21B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8F189F15005BFD0040C21B /* main.m in Sources */,
+				8C8F18A315005BFD0040C21B /* AppDelegate.m in Sources */,
+				8C8F18A615005BFE0040C21B /* MonkeyGame.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C8F189B15005BFD0040C21B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C8F189C15005BFD0040C21B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C8F18A715005BFE0040C21B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C8F18A815005BFE0040C21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C8F18AA15005BFE0040C21B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonkeyGame/MonkeyGame-Prefix.pch";
+				INFOPLIST_FILE = "MonkeyGame/MonkeyGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8C8F18AB15005BFE0040C21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonkeyGame/MonkeyGame-Prefix.pch";
+				INFOPLIST_FILE = "MonkeyGame/MonkeyGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C8F188615005BFD0040C21B /* Build configuration list for PBXProject "MonkeyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8F18A715005BFE0040C21B /* Debug */,
+				8C8F18A815005BFE0040C21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C8F18A915005BFE0040C21B /* Build configuration list for PBXNativeTarget "MonkeyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8F18AA15005BFE0040C21B /* Debug */,
+				8C8F18AB15005BFE0040C21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C8F18A415005BFE0040C21B /* MonkeyGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C8F18A515005BFE0040C21B /* MonkeyGame.xcdatamodel */,
+			);
+			currentVersion = 8C8F18A515005BFE0040C21B /* MonkeyGame.xcdatamodel */;
+			path = MonkeyGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C8F188315005BFD0040C21B /* Project object */;
+}

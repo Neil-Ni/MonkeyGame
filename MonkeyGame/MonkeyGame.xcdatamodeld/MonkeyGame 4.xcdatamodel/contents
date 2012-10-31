@@ -9,10 +9,11 @@
     <entity name="Score" representedClassName="Score" syncable="YES">
         <attribute name="banana" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="monkey" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="sort" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <relationship name="name" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Name" inverseName="score" inverseEntity="Name" syncable="YES"/>
     </entity>
     <elements>
         <element name="Name" positionX="160" positionY="192" width="128" height="105"/>
-        <element name="Score" positionX="601" positionY="393" width="128" height="90"/>
+        <element name="Score" positionX="601" positionY="393" width="128" height="105"/>
     </elements>
 </model>

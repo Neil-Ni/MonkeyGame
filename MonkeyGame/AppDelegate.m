@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "Name.h"
+#import "MainView.h"
 @implementation AppDelegate
 
 @synthesize window = _window;
@@ -15,9 +16,20 @@
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
 
+@synthesize BananaScores=_BananaScores,MonkeyScores=_MonkeyScores;
+
+- (void)fetch{
+    
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    MainView *mainView = [[MainView alloc] init];
+    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:mainView];
+    self.window.rootViewController = nav;
+    application.statusBarOrientation = UIInterfaceOrientationLandscapeLeft;
+    [self fetch];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
@@ -127,11 +139,17 @@
         return __persistentStoreCoordinator;
     }
     
-    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"MonkeyGame.sqlite"];
+    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"MonkeyGame5.sqlite"];
+    NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:
+                             
+                             [NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption,
+                             
+                             [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
+    
     
     NSError *error = nil;
     __persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
-    if (![__persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error])
+    if (![__persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:options error:&error])
     {
         /*
          Replace this implementation with code to handle the error appropriately.

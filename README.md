@@ -1,5 +1,4 @@
 # MonkeyGame
-
     The Monkey Game is a research project that was designed working with the Cognitive Development Labs at
 Wesleyan University. The idea behind the application is to observe pre-school-aged children's number recognition
 skills by engaging them with images that are programmed into the game.
@@ -12,7 +11,9 @@ Demo Porject ScreenShots
 --------
 
 ![Screen](https://github.com/Neil-Ni/MonkeyGame/raw/master/images/ScreenShot1_small.png)
+
 ![Screen](https://github.com/Neil-Ni/MonkeyGame/raw/master/images/ScreenShot2_small.png)
+
 ![Screen](https://github.com/Neil-Ni/MonkeyGame/raw/master/images/ScreenShot3_small.png)
 
 
